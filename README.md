@@ -11,7 +11,7 @@ Steps to download this bot:
 4. check that u have a folder called tixbot in that folder
 
 Steps to Use:
-0. Go to browser n go to https://www.maiseat.com/en-US/shows/14736 
+0. Go to chrome n go to https://www.maiseat.com/en-US/shows/14736 
 1. Open UIPath Studio
 2. Click Open a local project
 3. Open tixbot folder
