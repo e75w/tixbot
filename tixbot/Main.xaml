@@ -1,0 +1,313 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1074,608.3233333333333" sap2010:WorkflowViewState.IdRef="Sequence_3">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="520,477.33333333333326" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome HENRY LAU ENJOY THE SHOW World Tour 20" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,417.3333333333333" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" ScopeGuid="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,222.66666666666666" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <Sequence DisplayName="Clicking Stuff" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Buy Now'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/shows/14389" ContentHash="_6q2GafeoU2SaepLefZDMA" DesignTimeRectangle="2062, 723, 130, 57" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='BUTTON' type='button' class='bui-btn bui-btn-contained bui-btn-medium bui-btn-primary ms-button index-module__bookButton___fnKeK index-module__msButton___V-9Ax' aaname='Buy Now' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Buy Now' /&gt;" Guid="e148beee-b84e-4e11-8a0d-3c42fafaddfb" InformativeScreenshot="b5ef1957a19effce6df77f776f715da1.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/PkiEtwnaWk-nSt6Jb3NpFQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='《THE MAN ALIVE》SHOW - MAISEAT' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="2080, 734, 94, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='index-module__btnTitle___CUvYZ' matching:class='fuzzy' fuzzylevel:class='0.0' parentid='app-scroll-container' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='SPAN' type='' aaname='Buy Now' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Buy Now' /&gt;" Guid="b5648775-96c4-4767-baaa-62748ac68fc3" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'PS2(RM598.00)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/skuSelect/14736" ContentHash="hNMU4Oxzh0m8P4opAUU4vQ" DesignTimeRectangle="1239, 1220, 159, 34" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='PS2(RM598.00)' class='index-module__priceName___JmBxG' parentid='app-scroll-container' tag='DIV' /&gt;" Guid="21fdc65c-4e03-4c8e-b9f2-bf873f803e06" InformativeScreenshot="919762fe879af14cd227cc8d5ab78266.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/RZ4UfzRs3EGxdeHdZ-Xtxg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Select Tickets - MAISEAT' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Next'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/skuSelect/14389" ContentHash="juCuA7ZfMUaqOJLv6byK_A" DesignTimeRectangle="1952, 1443, 240, 60" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="d8d9df9f-908e-4926-aaf4-be4c7eda074e" InformativeScreenshot="8406e5b10add0140b0c87d9d256cf485.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/ibuAq0r87Ui7Cfrt63-5Ow" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Select Tickets - MAISEAT' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'I have READ and AGREED …'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/confirmOrder" ContentHash="nD3MpnX940anzJu1OCXhmQ" DesignTimeRectangle="392, 1458, 30, 30" ElementType="RadioButton" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='INPUT' type='radio' class='bui-radio-input' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="e1d6dce7-b351-4ad8-87e6-67530885b804" InformativeScreenshot="cb9f6ec16c43cf9705545dad5f40fa0e.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/F2iFdb89wUidHvLQPkO5fA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Confirm Order - MAISEAT' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="440, 1457, 302, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='I have READ and AGREED to' parentid='payment-bottom-bar' tag='SPAN' type='' class='index-module__pcAgreementText___Dv6ZT index-module__termsSpace___evCIQ' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='I have READ and AGREED to' /&gt;" Guid="c6443472-060c-4a4b-959c-96f6fa5be808" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Confirm'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_7" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/confirmOrder" ContentHash="sE0vaxPRS0uiVIDpHg4I4w" DesignTimeRectangle="2067, 1443, 125, 60" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='payment-bottom-bar' tag='BUTTON' /&gt;" Guid="a19fd513-a244-4358-b04d-a232bcda7151" InformativeScreenshot="60163f6d7de7460872221dc8f098c1cd.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/qwgn6n7q_UiJbiVgBb0_8g" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Confirm Order - MAISEAT' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Confirm Payment'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NClick_8" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/confirmPay" ContentHash="VyePYquZOUikiKh098-7kg" DesignTimeRectangle="1929, 1452, 227, 60" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="70ff952c-b081-458e-a8ea-8cf5a6b9137b" InformativeScreenshot="724f984305ffb413de2df25b6f577e6f.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/zm2UvtY7ykaJV5kr4ExSmA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payment' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+              </Sequence>
+              <Sequence DisplayName="Typing card details" sap:VirtualizedContainerService.HintSize="450,57.333333333333336" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Card Number'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,248" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="SameAsCard" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/confirmPay" CVScreenId="28a3addd-9c12-445a-9793-a3aa8e634e7c" ContentHash="kwPoV_i4Ak6rNjIr2h5pWw" CvElementArea="902, 627, 775, 75" CvType="InputBox" DesignTimeRectangle="926, 649, 732, 33" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="89ffbc87-58a4-4b1b-b708-55d5c8be0ab0" InformativeScreenshot="bcf0f6832bfe61021a2fb18c7cb86d80.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/u7sysad7UU2trrL4Yxaxew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payment' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="908, 580, 147, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='index-module__formLabel___uUTfV' tag='SPAN' type='' aaname='Card Number' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Card Number' /&gt;" Guid="7700f31c-f20b-4e24-8788-a9054a09723d" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                  <uix:NTypeInto.VerifyOptions>
+                    <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                      <uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    </uix:VerifyExecutionTypeIntoOptions>
+                  </uix:NTypeInto.VerifyOptions>
+                </uix:NTypeInto>
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Name on Card'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,248" sap2010:WorkflowViewState.IdRef="NTypeInto_3" InteractionMode="SameAsCard" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/confirmPay" CVScreenId="96ba3dc1-e825-405a-8c51-3b9662da45d3" ContentHash="cTqrRu3xtE-aVdGBsNvI7w" CvElementArea="903, 783, 775, 75" CvType="InputBox" DesignTimeRectangle="926, 805, 732, 33" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl idx='2' tag='INPUT' /&gt;" Guid="906d5d19-0bd3-4d40-99f1-72f2561901ea" InformativeScreenshot="89ccc860fcf65dc20068d15a2b8eb6ff.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/iqMNNipBhEK1YVFtlxy-kw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payment' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="908, 736, 158, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Name on Card' class='index-module__formLabel___uUTfV' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Name on Card' /&gt;" Guid="8ddb98cd-8284-4af1-a6d7-835aa6df64bd" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                  <uix:NTypeInto.VerifyOptions>
+                    <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                      <uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    </uix:VerifyExecutionTypeIntoOptions>
+                  </uix:NTypeInto.VerifyOptions>
+                </uix:NTypeInto>
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Expiration Date'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,248" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/confirmPay" CVScreenId="083e5be7-c047-4926-9ea7-438761faf11a" ContentHash="C6sdpG4PC067rG4DBRdYbg" CvElementArea="905, 938, 371, 76" CvType="InputBox" DesignTimeRectangle="926, 961, 288, 33" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' tag='INPUT' /&gt;" Guid="b92e9e04-d98d-4839-a5b8-90418c51c6dd" InformativeScreenshot="7adbcb6366e60cdbe16ca1be4044236f.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/A1ALX7oMTky9XggTXMw53A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payment' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="908, 892, 168, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Expiration Date' class='index-module__formLabel___uUTfV' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Expiration Date' /&gt;" Guid="6e05b465-0766-4da3-b0e8-14d01fe21ed6" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                  <uix:NTypeInto.VerifyOptions>
+                    <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                      <uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    </uix:VerifyExecutionTypeIntoOptions>
+                  </uix:NTypeInto.VerifyOptions>
+                </uix:NTypeInto>
+                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Security Code'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,238.66666666666666" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="SameAsCard" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NTypeInto.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/confirmPay" CVScreenId="7275c2b8-c62a-4d68-bff5-be90aad87aab" ContentHash="9N6U99joJkyR06m1U5fbuA" CvElementArea="1305, 939, 371, 75" CvType="InputBox" DesignTimeRectangle="1328, 961, 288, 33" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;input' idx='2' tag='INPUT' /&gt;" Guid="186936fe-b70e-4801-8ca2-cbf298252324" InformativeScreenshot="37b38ff9fa60e6a0fe7ad65ad47dd649.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/q9BToZL8TkSsdIneZKiqSQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payment' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="1310, 892, 150, 33" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Security Code' class='index-module__formLabel___uUTfV' tag='SPAN' type='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Security Code' /&gt;" Guid="52e37332-178c-4c84-8327-a60909e0b495" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NTypeInto.Target>
+                  <uix:NTypeInto.VerifyOptions>
+                    <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                      <uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <InArgument x:TypeArguments="x:Boolean" />
+                      </uix:VerifyExecutionTypeIntoOptions.Retry>
+                      <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                        <InArgument x:TypeArguments="x:Double" />
+                      </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    </uix:VerifyExecutionTypeIntoOptions>
+                  </uix:NTypeInto.VerifyOptions>
+                </uix:NTypeInto>
+              </Sequence>
+              <Sequence DisplayName="Continue paying" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Pay'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/confirmPay" ContentHash="GMNhrH0jtUy2Zb3be3RFbw" DesignTimeRectangle="908, 1177, 768, 60" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Pay' tag='BUTTON' type='button' class='bui-btn bui-btn-contained bui-btn-large bui-btn-primary ms-button index-module__payBtn___q2axF index-module__msButton___V-9Ax' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Pay' /&gt;" Guid="5f07ef33-3979-43b1-8880-708abba2cab6" InformativeScreenshot="67926f9090077b14037633141e653d5b.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/fqjtHKXOtUKtoEmRRvc8IA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payment' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="1273, 1189, 38, 36" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Pay' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Pay' /&gt;" Guid="3a56dc8f-5035-4754-831f-843b21a54e88" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Payment Completed'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_10" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/confirmPay" CVScreenId="3ed7581b-7e20-41f5-b76b-62250ac672aa" ContentHash="4T1vfgdetE-j7VlpVm0N4g" CvElementArea="1086, 908, 410, 52" CvTextArea="1191, 923, 198, 27" CvTextArgument="Payment Completed" CvType="Button" DesignTimeRectangle="1088, 910, 408, 48" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Payment Completed' tag='BUTTON' /&gt;" Guid="c15c217c-c3e0-46f8-8de1-58dc86bfd1cf" InformativeScreenshot="e5eb52788fa6be9d63891d831018000d.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/6lb4b4SaZkuKMpKvO_mklw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payment' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="1088, 808, 408, 66" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='index-module__subText___WEYdb' tag='DIV' type='' aaname='Pay within 9 minutes to avoid automatic cancellation.' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Pay within 9 minutes to avoid automatic cancellation.' /&gt;" Guid="b3c8e7b7-f201-4b93-9ed9-b6ae5cdbacdb" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Pay Now S$53.74'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,195.33333333333334" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/userCenter/order/orderDetail" ContentHash="Aojyz8tpMk-qg5dBKZrs5w" DesignTimeRectangle="1830, 1430, 362, 75" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Pay Now' tag='BUTTON' type='button' class='bui-btn bui-btn-contained bui-btn-medium bui-btn-primary ms-button index-module__detailpayBtn___fHguU index-module__intlPayBtn___TKacO dynamic-track-info index-module__msButton___V-9Ax' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Pay Now&amp;#xA; S$&amp;#xA;53.74' /&gt;" Guid="13a59dde-0dde-4052-b27e-b8ecb04a7c97" InformativeScreenshot="58ab9e9d0c00d5d14008e9177cc9f55d.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/v_9uJDPOEU-X8gc3fTBbGQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Order Details - MAISEAT' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <uix:Target DesignTimeRectangle="1896, 1447, 107, 40" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Pay Now' parentid='app-scroll-container' tag='SPAN' type='' class='' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Pay Now' /&gt;" Guid="cc500460-2ee7-420f-8730-5546ee2f6744" SearchSteps="FuzzySelector" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Confirm Payment(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="5a426dc4-29bf-43ab-8446-94c23450d254" Version="V5">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="maiseat.com/en-US/confirmPay" ContentHash="K8oHnUbVFU2We5GqBCFLdw" DesignTimeRectangle="1929, 1452, 227, 60" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='BUTTON' /&gt;" Guid="34edf86b-d4df-48ae-bd80-848126ac1b98" InformativeScreenshot="724f984305ffb413de2df25b6f577e6f.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/baaPwdGrykqnM_8SiU4dng" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Payment' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                  </uix:NClick.Target>
+                </uix:NClick>
+              </Sequence>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.OCREngine>
+          <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+            <ActivityFunc.Argument>
+              <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+            </ActivityFunc.Argument>
+          </ActivityFunc>
+        </uix:NApplicationCard.OCREngine>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-11, -11, 2582, 1550" BrowserType="Chrome" ContentHash="HYyQZPPOIUiW2R3BD7MLAg" IconBase64="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" InformativeScreenshot="c669d5a1b9af8044c9a0dae64638d22d.jpg" Reference="dBYkwv88MkiYCBI4tA--NA/9eqGWQYGgEm13f4zCdSq-Q" Selector="&lt;html app='chrome.exe' title='HENRY LAU ENJOY THE SHOW World Tour 2026 — KUALA LUMPUR - MAISEAT' /&gt;" Url="https://www.maiseat.com/en-US/shows/14736" Version="V3" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
